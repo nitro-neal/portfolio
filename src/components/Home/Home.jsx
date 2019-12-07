@@ -22,7 +22,7 @@ const Home = () => {
     <HomeContainer>
       <Text style={animations.verticleSlide(`15rem`, 0)}>
         <h1>Hey, my name’s Neal.</h1>
-        <p>I’m a software engineeer and builder based in Ausin, TX. </p>
+        <p>I’m a software engineeer and builder based in Austin, TX. </p>
         <TextLink to="/about" text="More about me" />
         <TextLink to="/projects" text="My recent projects" />
         <TextLink to="/contact" text="Get in touch" />
