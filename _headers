@@ -47,14 +47,6 @@
   Link: </portfolio/1-e15a6a291f5f8ec5c006.js>; rel=preload; as=script
   Link: </portfolio/2-ce79dc133216cd5776ca.js>; rel=preload; as=script
   Link: </portfolio/component---src-components-project-page-project-page-jsx-4dc43911e8c1434bf075.js>; rel=preload; as=script
-/portfolio/projects/know-my-advisor
-  Link: </portfolio/webpack-runtime-75ef3d952c4029cee39d.js>; rel=preload; as=script
-  Link: </portfolio/styles-7c8fe7705486117d804d.js>; rel=preload; as=script
-  Link: </portfolio/app-4434df4402034bb56953.js>; rel=preload; as=script
-  Link: </portfolio/0-d83a0d01e663ff55951d.js>; rel=preload; as=script
-  Link: </portfolio/1-e15a6a291f5f8ec5c006.js>; rel=preload; as=script
-  Link: </portfolio/2-ce79dc133216cd5776ca.js>; rel=preload; as=script
-  Link: </portfolio/component---src-components-project-page-project-page-jsx-4dc43911e8c1434bf075.js>; rel=preload; as=script
 /portfolio/projects/tokenfolio
   Link: </portfolio/webpack-runtime-75ef3d952c4029cee39d.js>; rel=preload; as=script
   Link: </portfolio/styles-7c8fe7705486117d804d.js>; rel=preload; as=script
@@ -72,6 +64,14 @@
   Link: </portfolio/2-ce79dc133216cd5776ca.js>; rel=preload; as=script
   Link: </portfolio/component---src-components-project-page-project-page-jsx-4dc43911e8c1434bf075.js>; rel=preload; as=script
 /portfolio/projects/savage-squad
+  Link: </portfolio/webpack-runtime-75ef3d952c4029cee39d.js>; rel=preload; as=script
+  Link: </portfolio/styles-7c8fe7705486117d804d.js>; rel=preload; as=script
+  Link: </portfolio/app-4434df4402034bb56953.js>; rel=preload; as=script
+  Link: </portfolio/0-d83a0d01e663ff55951d.js>; rel=preload; as=script
+  Link: </portfolio/1-e15a6a291f5f8ec5c006.js>; rel=preload; as=script
+  Link: </portfolio/2-ce79dc133216cd5776ca.js>; rel=preload; as=script
+  Link: </portfolio/component---src-components-project-page-project-page-jsx-4dc43911e8c1434bf075.js>; rel=preload; as=script
+/portfolio/projects/know-my-advisor
   Link: </portfolio/webpack-runtime-75ef3d952c4029cee39d.js>; rel=preload; as=script
   Link: </portfolio/styles-7c8fe7705486117d804d.js>; rel=preload; as=script
   Link: </portfolio/app-4434df4402034bb56953.js>; rel=preload; as=script
