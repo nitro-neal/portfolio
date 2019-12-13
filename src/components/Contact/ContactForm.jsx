@@ -4,40 +4,47 @@ import colors from "../../shared/colors";
 import { transitions } from "../../shared/transitions";
 import breakpoints from "../../shared/breakpoints";
 
+import axios from "axios";
+
 const ContactForm = ({ name }) => {
   return (
-    <form
-      name={name}
-      method="POST"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
-      action="/"
-    >
-      <input type="hidden" name="bot-field" />
-      <input type="hidden" name="form-name" value={name} />
-      <Input>
-        <label htmlFor="name">
-          <p>Your name</p>
-        </label>
-        <input type="text" name="name" id="name" required />
-      </Input>
-      <Input>
-        <label htmlFor="email">
-          <p>Your email</p>
-        </label>
-        <input type="email" name="email" id="email" required />
-      </Input>
-      <Input>
-        <label htmlFor="message">
-          <p>Message</p>
-        </label>
-        <textarea name="message" id="message" required />
-      </Input>
-      <Button type="submit">
-        <p>Send</p>
-        <ButtonSpan />
-      </Button>
-    </form>
+    <>
+      <form
+        name={name}
+        method="POST"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        action="http://formforwarder.xyz/groessler24@gmail.com"
+      >
+        <input
+          type="hidden"
+          name="_next"
+          value="https://nitro-neal.github.io/portfolio/"
+        />
+        <Input>
+          <label htmlFor="name">
+            <p>Your name</p>
+          </label>
+          <input type="text" name="name" id="name" required />
+        </Input>
+        <Input>
+          <label htmlFor="email">
+            <p>Your email</p>
+          </label>
+          <input type="email" name="email" id="email" required />
+        </Input>
+        <Input>
+          <label htmlFor="message">
+            <p>Message</p>
+          </label>
+          <textarea name="message" id="message" required />
+        </Input>
+        <Button type="submit">
+          <p>Send</p>
+          <ButtonSpan />
+        </Button>
+      </form>
+    </>
   );
 };
 
