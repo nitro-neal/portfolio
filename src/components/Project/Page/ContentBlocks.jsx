@@ -49,6 +49,7 @@ const Content = props => {
   return (
     <>
       <Waypoint onEnter={() => setView(true)} />
+      {/* <p>{JSON.stringify(props.image)}</p> */}
       {props.image ? (
         <AnimatedImage
           style={useSpring({

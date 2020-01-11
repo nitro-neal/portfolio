@@ -10,6 +10,22 @@ const ProjectContent = ({ color, client, content }) => {
   return (
     <ProjectContentContainer color={color} client={client}>
       {content.map(({ image, title, copy, layout, video }, i) => {
+        if (image !== null) {
+          console.log(image);
+          if (!image.childImageSharp.fluid.src.includes("/portfolio/")) {
+            image.childImageSharp.fluid.src = image.childImageSharp.fluid.src.replace(
+              "/static/",
+              "/portfolio/static/"
+            );
+          }
+
+          if (!image.childImageSharp.fluid.srcSet.includes("/portfolio/")) {
+            image.childImageSharp.fluid.srcSet = image.childImageSharp.fluid.srcSet.replace(
+              /\/static/g,
+              "/portfolio/static"
+            );
+          }
+        }
         if (layout === "left") {
           return (
             <LeftContentBlock

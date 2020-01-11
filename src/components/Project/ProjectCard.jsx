@@ -12,6 +12,7 @@ import {
 } from "./ProjectCardStyles";
 
 const ProjectCard = ({ project, index }) => {
+  // console.log(project.featuredimage.childImageSharp.fluid);
   return (
     <Card
       index={index + 1}
